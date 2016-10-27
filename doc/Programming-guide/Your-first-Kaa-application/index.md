@@ -938,10 +938,11 @@ To launch your Java application:
 
 <ol>
     <li>
-        Save the application code into FirstKaaDemo.java file located in the **demo_app** directory.
+        Save the application code into FirstKaaDemo.java file located in the <b>demo_app</b> directory.
     </li>
     <li>
-        Download the slf4j-simple-1.7.21.jar in the **demo_app** directory.
+        Download the [slf4j-simple-1.7.21.jar](http://central.maven.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar) to the <b>demo_app</b> directory.
+        In Linux terminal you can just go to the <b>demo_app</b> directory and run the command:
 
         <pre>
              wget http://central.maven.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar
@@ -949,7 +950,7 @@ To launch your Java application:
 
     </li>
     <li>
-        Build the application by running the following command from the **demo_app** directory.
+        Build the application by running the following command from the <b>demo_app</b> directory.
 
         <pre>
             javac -cp kaa-*.jar *.java
