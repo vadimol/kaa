@@ -3,11 +3,11 @@
   _sort_idx: 1000
   level: 1
   subitems:
-    Welcome-Home:
+    Welcome:
       _sort_idx: 5
       subitems: {}
-      text: Welcome / Home
-      url: "/docs/v0.10.0/Welcome-Home/"
+      text: Welcome
+      url: "/docs/v0.10.0/Welcome/"
     Getting-started:
       _sort_idx: 10
       subitems: {}
