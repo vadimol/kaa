@@ -165,7 +165,7 @@ update_jekyll_structure() {
     git checkout "$gh_pages"
   fi
   echo_green "Merging gh-pages-stub from $1"
-  git merge -Xtheirs "$GH_PAGES_STUB" -m "Merged jekyll files"
+  git merge --allow-unrelated-histories -Xtheirs "$GH_PAGES_STUB" -m "Merged jekyll files"
 }
 
 # Deploy . Main purpose of this script is to create dir structure where jekyll files is in root dir
